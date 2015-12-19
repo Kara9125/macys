@@ -1,0 +1,38 @@
+body{
+  margin:150px 0 0 0;
+  text-align:center;
+  background: #FFFFFF;
+}
+h2{
+  font-size: 32px;
+}
+a{
+  text-decoration: none;
+  color: #222222;
+  font-size: 18px;
+}
+
+/* Lightbox background */
+#lightbox {
+  display:none;
+  background: rgba(0,0,0,0.8);
+  position:absolute;
+  top:0px;
+  left:0px;
+  min-width:100%;
+  min-height:100%;
+  z-index:1000;
+}
+/* Lightbox panel with some content */
+#lightbox-panel {
+  display:none;
+  position:fixed;
+  top:100px;
+  left:50%;
+  margin-left:-200px;
+  width:400px;
+  background:#FFFFFF;
+  padding:10px 15px 10px 15px;
+  border:2px solid #CCCCCC;
+  z-index:1001;
+}
