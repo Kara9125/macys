@@ -23,9 +23,9 @@ function returnAjax(){
 			var englishEntries = data.categories.EnglishEvents2015.entries
 			$.each (englishEntries, function(index, value){
 				// value.
-				$(".container").append("<p>"+ value.month +" "+ value.day+", "+ value.time+"</p>");
-				$(".container").append("<p>"+ value.storename +"</p>");
-				$(".container").append("<input type='button' id="+index+" class='more-btn' value='See More'>");
+				$("#main-content").append("<p>"+ value.month +" "+ value.day+", "+ value.time+"</p>");
+				$("#main-content").append("<p>"+ value.storename +"</p>");
+				$("#main-content").append("<input type='button' id="+index+" class='more-btn' value='See More'>");
 				
 
 			});
